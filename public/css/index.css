@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e09466;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    background: #f9f9f9;
+}
+
+#menu {
+    color: black;
+}
+
+#menu ul li :hover {
+    color: burlywood;
+}
+
+.bs-example-navbar-collapse-1 ul li a:hover {
+    background-color: burlywood;
+    color: black!important;
+}
+
+.book#Arrive {
+    position: relative;
+}
+
+.font i {
+    position: absolute;
+    left: 120px;
+    padding-top: 5px;
+    color: white;
+}
+
+.navbar-brand {
+    /* height: 0px; */
+    padding: 10px 0px;
+}
+
+.navbar {
+    border: 0;
+}
+
+.colo {
+    margin-bottom: 15px;
+}
+
+
+/* book */
+
+.book-form-header {
+    z-index: 111;
+    margin-top: -103px;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding-top: 45px;
+    position: relative;
+}
+
+.can {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .awe-calendar {
+        float: none;
+        width: 100%;
+    }
+    .book-form-header {
+        position: static;
+        margin-top: 0px
+    }
+}
+
+.colo input {
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+}
+
+.colo select {
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+}
+
+#owl-demo {
+    display: inline-flex;
+}
+
+.wrap-map {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, .9);
+}
+
+.map {
+    padding: 0px;
+}
+
+.chu {
+    /* background: rgba(255, 255, 255, .9); */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.two {
+    margin: 15px 0px;
+}
+
+.anh {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.footer {
+    margin-top: 60px
+}
+
+.boder i {
+    border-radius: 50%;
+    border: 2px solid #cc920f;
+    color: rosybrown;
+    padding: 10px;
+}
+
+.tittle-email {
+    border-radius: 0px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.title-botton {
+    border: 0px;
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 15px;
+    background: sandybrown;
+}
+
+.social {
+    display: flex;
+    float: right;
+}
+
+.boder {
+    margin-left: 10px;
+    padding: 0 auto;
+}
+
+.ft-on {
+    background: #240d0d;
+}
+
+.clear {
+    clear: both;
+}
+
+@media (max-width:425px) {
+    .col-md-4.col-sm-4.col-xs-12.content {
+        display: none!important;
+    }
+    .copyrirght h5 {
+        font-size: 10px !important;
+    }
+}

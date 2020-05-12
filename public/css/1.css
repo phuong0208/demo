@@ -1,0 +1,131 @@
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+@font-face{
+	font-family: belleza;
+	src: url('../fonts/Belleza.ttf');
+}
+.top{
+	height: 100px;
+	background-color: #E3CB6A;
+}
+.logo{
+	background: url('../img/logo/logo1.jpg') no-repeat;
+	margin-top: 17px;
+	margin-left: 20px;		
+	width: 20%;
+}
+.menu{
+	width: 80%;
+}
+.menu .nav-link {
+	margin-left: 20px;	
+	margin-top: 20px;	
+	font-size: 17px;
+	font-family: belleza;
+	color: 	#FFFFFF !important;
+	padding-right: .5rem !important;
+    padding-left: 1.7rem !important;
+}
+.menu .nav-link i{
+	padding-left: 18px;
+	font-size: 21px;
+}
+.review_pies{
+	background: url('../img/background/nen1.jpg') no-repeat;
+	background-size: 100%;
+}
+.flexible_cake{
+	background: url('../img/background/nen1.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.review_pies h3, .review_pies h5, .flexible_cake h3, .flexible_cake h5{
+	font-family: belleza ;
+}
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.pies img{
+	outline-width: 2px;
+	outline-color: #fff;
+	outline-style: solid;
+	outline-offset: 5px;
+}
+.collection{
+	background: url('../img/background/n.jpg') no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.collection>h3{
+	color: white;
+}
+.show .title {
+/* 	background: url('../img/logo/lg.jpg') no-repeat;
+ */	background-position: center bottom;
+	font-family:belleza ;
+	padding-bottom: 60px;	
+}
+.owl-prev, .owl-next{
+	font-size: 30px !important;
+	color: #888 !important;
+}
+.owl-prev{
+	position: absolute;
+	left: 0 !important;
+}
+.owl-next{
+	position: absolute;
+	right: 0 !important;
+}
+.item{
+	margin-left: 50px;	
+}
+.item .card{
+	width: 75%;	
+	min-height: 100px !important;	
+
+}
+.text-warning{
+	color: #a2000d !important;
+}
+.bg{
+	background: #E5B65D;
+	color: #FCFCFE;
+
+}
+.item:hover div.card{
+	transform: scale(1.06, 1.06);
+	transition: transform 2s ease 0.1s;
+}
+.anh:hover div.card{
+	transform: scale(1.06, 1.06);
+	transition: transform 2s ease 0.1s;
+}
+.owl-nav{
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
+.owl-prev, .owl-next{
+	font-size: 60px !important;
+	color: #888 !important;
+}
+.owl-prev{
+	position: absolute;
+	left: 0 !important;
+}
+.owl-next{
+	position: absolute;
+	right: 0 !important;
+}
+.submenu .dropdown ul li{
+font-size: 17px
+}
+.submenu:hover .dropdown{
+	display: block;
+}
